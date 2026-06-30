@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0123/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0123/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上方大洞真元圖書繼說終篇
+  date: '2015-08-28 23:49:41.380613'
+  source:
+    repository: kanripo
+    path: KR5b0123
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0123_000-ZTDZ.yaml, hash: 'sha256:3a03a55f1b799068a56aaf0737935fca1c91ab9c338b84ca385e889beb3201ab'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0123_000-ZTDZ.markers.yaml, hash: 'sha256:7188fc625ba98b97297662f54937ae9d73ba5acdc86481476b1e9e348b2cb347'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0123_SJB_000-060714a
+    span:
+    - body
+    - 0
+    - 1809
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ae10dbafaf902b6161f1805b9d1f4284c5e04384a9fc81a0c875588624514219
